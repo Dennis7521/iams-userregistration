@@ -3,7 +3,7 @@ import MainLayout from '../component/layout/MainLayout';
 import HomePage from '../component/pages/HomePage';
 import RegistrationPage from '../component/pages/RegistrationPage';
 
-export const router = createBrowserRouter([
+export const router = hashRouter([
   {
     path: '/',
     element: <MainLayout />,
