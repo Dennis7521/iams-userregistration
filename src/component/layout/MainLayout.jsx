@@ -36,7 +36,7 @@ const MainLayout = () => {
         {sidebarItems.map((item, index) => (
   <Link
     key={index}
-    href={item.path}  // This will cause a full page reload
+    to={item.path}  // This will cause a full page reload
     style={{
       position: 'absolute',
       left: '20px',
