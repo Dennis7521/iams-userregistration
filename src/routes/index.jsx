@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { hashRouter } from 'react-router-dom';
 import MainLayout from '../component/layout/MainLayout';
 import HomePage from '../component/pages/HomePage';
 import RegistrationPage from '../component/pages/RegistrationPage';
