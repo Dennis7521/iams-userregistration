@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Outlet, useNavigate } from 'react-router-dom';
+import {Link, Outlet, useNavigate } from 'react-router-dom';
 
 const MainLayout = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
