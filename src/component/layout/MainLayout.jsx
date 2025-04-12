@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Outlet, useNavigate } from 'react-router-dom';
 
 const MainLayout = () => {
@@ -34,7 +35,7 @@ const MainLayout = () => {
         borderRadius: '20px'
       }}>
         {sidebarItems.map((item, index) => (
-  <a
+  <Link
     key={index}
     href={item.path}  // This will cause a full page reload
     style={{
@@ -77,7 +78,7 @@ const MainLayout = () => {
     }}>
       {item.label}
     </div>
-  </a>
+  </Link>
 ))}
     
       </div>
