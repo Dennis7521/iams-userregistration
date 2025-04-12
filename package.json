@@ -2,7 +2,7 @@
   "name": "iams-userregistration",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Dennis7521.github.io/iams-userregistration",
+  "homepage": "https://dennis7521.github.io/iams-userregistration",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
