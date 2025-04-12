@@ -1,11 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from './component/layout/MainLayout';
 import RegistrationForm from './component/forms/RegistrationForm';
 import HomePage from './component/pages/HomePage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
@@ -13,7 +13,7 @@ function App() {
           {/* Add other routes as needed */}
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
