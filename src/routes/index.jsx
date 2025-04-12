@@ -1,9 +1,9 @@
-import { hashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import MainLayout from '../component/layout/MainLayout';
 import HomePage from '../component/pages/HomePage';
 import RegistrationPage from '../component/pages/RegistrationPage';
 
-export const router = hashRouter([
+export const router = HashRouter([
   {
     path: '/',
     element: <MainLayout />,
