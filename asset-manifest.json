@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iams-userregistration/static/css/main.18ca8dc2.css",
+    "main.js": "/iams-userregistration/static/js/main.98f85d7c.js",
+    "static/js/453.1d010160.chunk.js": "/iams-userregistration/static/js/453.1d010160.chunk.js",
+    "index.html": "/iams-userregistration/index.html",
+    "main.18ca8dc2.css.map": "/iams-userregistration/static/css/main.18ca8dc2.css.map",
+    "main.98f85d7c.js.map": "/iams-userregistration/static/js/main.98f85d7c.js.map",
+    "453.1d010160.chunk.js.map": "/iams-userregistration/static/js/453.1d010160.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ca8dc2.css",
+    "static/js/main.98f85d7c.js"
+  ]
+}
